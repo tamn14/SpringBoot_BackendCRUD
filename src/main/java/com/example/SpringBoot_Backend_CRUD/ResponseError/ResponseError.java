@@ -1,4 +1,4 @@
-package com.example.spring81.ResponseError;
+package com.example.SpringBoot_Backend_CRUD.ResponseError;
 
 public class ResponseError {
     private int status;

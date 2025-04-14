@@ -8,16 +8,16 @@ public class CourseDTO {
     private Date begin;
     private Date end;
     private int teacherId;
-    private String teacherName; 
+
 
     // Constructor
-    public CourseDTO(int id, String name, Date begin, Date end, int teacherId, String teacherName) {
+    public CourseDTO(int id, String name, Date begin, Date end, int teacherId) {
         this.id = id;
         this.name = name;
         this.begin = begin;
         this.end = end;
         this.teacherId = teacherId;
-        this.teacherName = teacherName;
+
     }
 
     // Getter and Setter
@@ -61,11 +61,5 @@ public class CourseDTO {
         this.teacherId = teacherId;
     }
 
-    public String getTeacherName() {
-        return teacherName;
-    }
 
-    public void setTeacherName(String teacherName) {
-        this.teacherName = teacherName;
-    }
 }
